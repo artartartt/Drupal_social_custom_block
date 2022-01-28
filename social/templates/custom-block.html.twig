@@ -1,0 +1,6 @@
+<div{{ attributes }}>
+  {% for key,value in social_info %}
+    <a class="{{ value.is_active }}" href="{{ value.url }}">{{ value.label }}</a>
+  {% endfor%}
+</div>
+

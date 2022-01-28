@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function social_theme() {
+
+  return [
+    'custom-block' => [
+      'variables' => [
+        'social_info' => [],
+      ],
+    ],
+  ];
+}
