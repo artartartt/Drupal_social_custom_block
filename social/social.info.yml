@@ -1,4 +1,4 @@
 name: social custom
-description: Building a simple block module
+description: Social Custom Modrule
 type: module
 core_version_requirement: ^9
